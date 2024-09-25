@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    form{
+        margin-left: 40%;
+    }
+.student{
+    text-align: center;
+ 
+}
+button{
+    background-color: white;
+    width: 100%;
+}
+table{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+select{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+input{
+    background-color: transparent;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+.tablelist{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="Student">
+        <h1>Student Form</h1>
+        <form>
+            
+            <table border="1" class="table">
+                <tr>
+                    <td>Name</td><td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td><td><input type="number" id="age"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="Gender1" name="gender" value="Male">Male
+                        <input type="radio" id="Gender2" name="gender" value="Female">Female
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>
+                        <select id="course">
+                            <option >Javascript</option>
+                            <option>C++</option>
+                            <option>Java</option>
+                            <option>Python</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td><td><input type="email" id="email"></td>
+                </tr>
+              <tr>
+               <td colspan="1"><button id="save">Save</button></td><td><button type="reset">Reset</button></td>
+              </tr>
+
+            </table>
+        </form>
+    </div>
+    <div>
+        <form>
+            <table border="1" class="tablelist">
+               <tr>
+                <td>Name</td><td>Age</td><td>Gender</td><td>Course</td><td>Email</td><td>Action</td>
+               </tr>
+                
+            </table>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

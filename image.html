@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        /* .image{
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            animation: scroll 5s linear infinite;
+            
+        }
+        .image img{
+            width: 250px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%); 
+  }
+} */
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.images {
+  display: flex;
+  width: calc(300%); /* Adjust based on the number of images */
+  animation: scroll 10s linear infinite;
+  gap: 15px;
+ 
+}
+
+.images img {
+  width: 33.33%;
+  border-radius: 10px; /* Adjust based on the number of images */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-66.66%); /* Adjust based on the number of images */
+  }
+}
+
+
+    </style>
+</head>
+<body>
+  
+    <div class="slideshow">
+        <div class="images">
+
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+            <img src="image/download (2).jpeg" alt="">
+            <img src="image/download.jpeg" alt="">
+            <img src="image/OIP (1).jpeg" alt="">
+            <img src="image/OIP (2).jpeg" alt="">
+            <img src="image/OIP (3).jpeg" alt="">
+            <img src="image/OIP (5).jpeg" alt="">
+        </div>
+      </div>
+      
+
+
+</body>
+</html>
